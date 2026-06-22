@@ -1,0 +1,23 @@
+# ────────────────────────────────────────────────
+# Home Furnishing Competition  –  Config file
+# Pass this file as the first argument:
+#   ./furnishing config.txt
+# ────────────────────────────────────────────────
+
+# Number of members per team  (min 2: one source + one sink)
+num_members  = 4
+
+# Number of furniture pieces each team must move per round
+num_pieces   = 15
+
+# Delay range for each team member when passing a piece (milliseconds)
+# Delay grows over time to simulate fatigue
+min_delay_ms = 50
+max_delay_ms = 250
+
+# How many round wins a team needs to end the competition
+wins_needed  = 2
+
+# 1 = assign random unique serial numbers to pieces
+# 0 = use sequential numbers 1..num_pieces
+random_ids   = 1
